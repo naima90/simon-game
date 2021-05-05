@@ -1,0 +1,47 @@
+body {
+  margin: 0;
+  background-color: #011f3f;
+  text-align: center;
+}
+
+#title {
+  font-size: 3rem;
+  font-family: "Courier New", Courier, monospace;
+  color: #fef2bf;
+  margin: 5%;
+}
+.container {
+  width: 50%;
+  margin: auto;
+}
+
+#green {
+  background-color: green;
+}
+#red {
+  background-color: red;
+}
+#yellow {
+  background-color: yellow;
+}
+#blue {
+  background-color: blue;
+}
+
+.btn {
+  width: 200px;
+  height: 200px;
+  display: inline-block;
+  margin: 25px;
+  border: solid black 10px;
+  border-radius: 20%;
+}
+
+/* --- js --- */
+.pressed {
+  box-shadow: 0 0 20px white;
+  background-color: grey;
+}
+.game-over {
+  background-color: red;
+}
